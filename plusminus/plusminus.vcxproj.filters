@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\main">
+      <UniqueIdentifier>{67caad19-5894-490a-9d69-dbb22224f72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\hooks">
+      <UniqueIdentifier>{bf6a9dc9-dc11-4200-9d44-a2ee2b6790d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\hooks\minhook">
+      <UniqueIdentifier>{4a9c7b7a-9159-43f2-80df-6d7bc4d754c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\hooks\minhook\HDE">
+      <UniqueIdentifier>{ccd40a52-559f-4372-8ac9-b4f6ffd5b701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\core">
+      <UniqueIdentifier>{5f392fa9-1698-4200-a62c-2ab8633b0371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\render">
+      <UniqueIdentifier>{03a8b386-acf1-4ca9-82c5-2098da2d41c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\render\menu">
+      <UniqueIdentifier>{f89ffed9-05ce-4fb9-a444-98b2f858638d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\render\menu\imgui">
+      <UniqueIdentifier>{117bdcbc-a7e4-44e0-9ab2-e03ace856803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\core\sdk">
+      <UniqueIdentifier>{9345b5da-4641-4db4-80a2-18474cef01bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\core\main">
+      <UniqueIdentifier>{c4e3de37-ef91-4472-963d-c6a9b106370f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main\core\main\ent">
+      <UniqueIdentifier>{2ea38aa1-f453-4a88-a836-0105b9f0a394}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hooks/minhook\src\buffer.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/detours.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\HDE\hde32.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\HDE\hde64.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\include\MinHook.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\HDE\pstdint.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\HDE\table32.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\HDE\table64.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/minhook\src\trampoline.h">
+      <Filter>source\main\hooks\minhook\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imconfig.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imgui.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imgui_impl_dx11.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imgui_impl_win32.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imgui_internal.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imgui_stdlib.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imstb_rectpack.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imstb_textedit.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/imgui/imstb_truetype.h">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/math.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/mem.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="menu/menu.h">
+      <Filter>source\main\render\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="init/d3defs.h">
+      <Filter>source\main\render</Filter>
+    </ClInclude>
+    <ClInclude Include="init/present.h">
+      <Filter>source\main\render</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/vars.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/offsets.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks/defs.h">
+      <Filter>source\main\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="logsystem.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="rust.h">
+      <Filter>source\main\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/il2cpp.h">
+      <Filter>source\main\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="main/entities.h">
+      <Filter>source\main\core\main\ent</Filter>
+    </ClInclude>
+    <ClInclude Include="gamethread.h">
+      <Filter>source\main\core\main\ent</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff\xorstr.h">
+      <Filter>source\main\core</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering/rendering.h">
+      <Filter>source\main\render</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>source\main\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="stuff/structs.h">
+      <Filter>source\main\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>source\main\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="main/aim.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main/weapons.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="init\pre_draw.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main/misc.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\f_object.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="main/esp.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="config/config.h">
+      <Filter>source\main\core\main</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>source\main\render\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks/minhook\src\buffer.c">
+      <Filter>source\main\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks/minhook\src\HDE\hde32.c">
+      <Filter>source\main\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks/minhook\src\HDE\hde64.c">
+      <Filter>source\main\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks/minhook\src\hook.c">
+      <Filter>source\main\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks/minhook\src\trampoline.c">
+      <Filter>source\main\hooks\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui_draw.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui_impl_dx11.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui_impl_win32.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui_stdlib.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu/imgui/imgui_widgets.cpp">
+      <Filter>source\main\render\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="lazyimp.h">
+      <Filter>source\main\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="includes.h">
+      <Filter>source</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
