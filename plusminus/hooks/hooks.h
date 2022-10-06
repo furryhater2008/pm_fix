@@ -311,7 +311,7 @@ namespace hk {
 							target = TargetPlayer->bones()->head->position;
 
 						if (utils::LineOfSight(target, baseplayah->eyes()->get_position()))
-							held->DidAttackClientside();
+							held->DoAttack();
 							
 					}
 				}
