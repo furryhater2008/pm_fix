@@ -3815,8 +3815,6 @@ namespace O {
 
 }
 
-
-
 namespace CO {
 	constexpr auto ClientUpdate = O::BasePlayer::ClientUpdate;
 	constexpr auto ClientUpdate_Sleeping = O::BasePlayer::ClientUpdate_Sleeping;
@@ -3865,27 +3863,27 @@ namespace CO {
 	constexpr auto OpenHatch = O::Door::Menu_ToggleHatch; // public void Menu_ToggleHatch(BasePlayer player) { }
 
 	// script.json
-	constexpr auto BaseNetworkable = 56623800; // BaseNetworkable_TypeInfo
-	constexpr auto ConvarGraphics = 56626808; // ConVar.Graphics_TypeInfo
-	constexpr auto HitTest = 56616352; // HitTest_TypeInfo
-	constexpr auto Client = 56619088; // ConVar.Client_TypeInfo
+	constexpr auto BaseNetworkable = 56624008; // BaseNetworkable_TypeInfo
+	constexpr auto ConvarGraphics = 56627016; // ConVar.Graphics_TypeInfo
+	constexpr auto HitTest = 56616552; // HitTest_TypeInfo
+	constexpr auto Client = 56619288; // ConVar.Client_TypeInfo
 
 	// dump.cs
-	constexpr auto IsUpgradeBlocked = 0x6F8F20;
-	constexpr auto get_Entity = 0x6432F0; // localplayer public static BasePlayer get_Entity() { }
-	constexpr auto Magnitude2D = 0x1DB12A0;//public static float Magnitude2D(Vector3 v) { }
-	constexpr auto CanAffordUpgrade = 0x6F6A30;
-	constexpr auto CanChangeToGrade = 0x6F6C00;
-	constexpr auto UpgradeToGrade = 0x6FA220;
-	constexpr auto MoveTowards = 0x23F7010;
-	constexpr auto IsBeingHacked = 0x5A5F80;
-	constexpr auto IsFullyHacked = 0x65DCC0;
+	constexpr auto IsUpgradeBlocked = 0x6F9730;
+	constexpr auto get_Entity = 0x6439C0; // localplayer public static BasePlayer get_Entity() { }
+	constexpr auto Magnitude2D = 0x1DB1D10;//public static float Magnitude2D(Vector3 v) { }
+	constexpr auto CanAffordUpgrade = 0x6F7240;
+	constexpr auto CanChangeToGrade = 0x6F7410;
+	constexpr auto UpgradeToGrade = 0x6FAA30;
+	constexpr auto MoveTowards = 0x23F7A80;
+	constexpr auto IsBeingHacked = 0x5A6650;
+	constexpr auto IsFullyHacked = 0x65E390;
 	constexpr auto set_rayleigh = 0x466AC0;//public static void set_atmosphere_rayleigh(float value) { }
-	constexpr auto IsHidden = 0x7F1DC0; // public class StashContainer : StorageContainer
-	constexpr auto GetModifiedAimConeDirection = 0xBAE2C0; // public static Vector3 GetModifiedAimConeDirection(float aimCone, Vector3 inputVec, bool anywhereInside = True) { }
-	constexpr auto Run = 0x2516880; // public static string Run(ConsoleSystem.Option options, string strCommand, object[] args) { }
-	constexpr auto ClosestPoint = 0x82A490; // public Vector3 ClosestPoint(Vector3 position) { }
+	constexpr auto IsHidden = 0x7F25D0; // public class StashContainer : StorageContainer
+	constexpr auto GetModifiedAimConeDirection = 0xBAED30; // public static Vector3 GetModifiedAimConeDirection(float aimCone, Vector3 inputVec, bool anywhereInside = True) { }
+	constexpr auto Run = 0x25172F0; // public static string Run(ConsoleSystem.Option options, string strCommand, object[] args) { }
+	constexpr auto ClosestPoint = O::BaseEntity::ClosestPoint; // public Vector3 ClosestPoint(Vector3 position) { }
 	//constexpr auto LineOfSight = 0x50ED80; // public static bool LineOfSight(Vector3 p0, Vector3 p1, int layerMask, float padding = 0) { }
 
-	constexpr auto CreateEffect = 0xAF55F0;//public static GameObject CreateEffect(string strPrefab, Effect effect) { }
+	constexpr auto CreateEffect = 0xAF6060;//public static GameObject CreateEffect(string strPrefab, Effect effect) { }
 }
